@@ -10,6 +10,8 @@ Our data path on the esrf server: /data/visitor/hc4929/id26/
 For more scrips or the un modified version go to https://confluence.esrf.fr/pages/viewpage.action?pageId=50765632.
 The official page that proviedes a multitude of scripts for the data analyses.
 
+  <br>
+  <br>
 
 To run the scrips type in the consol:  
 yourusername@slurm-nice-devel2904:~ % module load conda  
@@ -29,6 +31,8 @@ In [2]: exec(open('filepath/example1.py').read())
 
 If you download the file you can acces it with from the download folder by using:   
 In [3]: exec(open('Downloads/daxs_xes_EH2_cc_copper.py').read())
+
+  <br>
 
 Modifing the files can be done with spyder or visual studio code. You can also run files directly from visual studio code for this use:
 yourusername@slurm-nice-devel2904:~ % code  
