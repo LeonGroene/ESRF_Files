@@ -18,13 +18,13 @@ counters_xes = {
 }
 
 # Define the datafile and the scan numbers
-fname = "/data/visitor/hc4929/id26/cell_22_xanes_ZnS_olga/cell_22_xanes_ZnS_olga_0001/cell_22_xanes_ZnS_olga_0001.h5"
-source1 = Source(fname, 10, None)
-source2 = Source(fname, 12, None)
-source3 = Source(fname, 14, None)   # Give first filename, then numbers of scans to include, then numbers of scans to exclude (if any, here None)
-conc_corr_scan1 = 11     # Define the scan number for the concentration correction
-conc_corr_scan2 = 13 
-conc_corr_scan3 = 15 
+fname = "/data/visitor/hc4929/id26/cell_11_xes_Cu3N_in-situ-40-1/cell_11_xes_Cu3N_in-situ-40-1_0001/cell_11_xes_Cu3N_in-situ-40-1_0001.h5"
+source1 = Source(fname, 1, None)
+source2 = Source(fname, 3, None)
+source3 = Source(fname, 5, None)   # Give first filename, then numbers of scans to include, then numbers of scans to exclude (if any, here None)
+conc_corr_scan1 = 2     # Define the scan number for the concentration correction
+conc_corr_scan2 = 4 
+conc_corr_scan3 = 6 
                                
 # Create an object that contains the data
 measurement1 = Xes(source1, counters=counters_xes)   # Sets the measurement type to Xes. The data is from the source object above and counters to process are the ones defined above in counters dictionary
