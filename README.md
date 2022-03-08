@@ -27,5 +27,5 @@ In [1]: import daxs
 Executing a file can be done as followed:  
 In [2]: exec(open('filepath/example1.py').read())
 
-If you are you download the file you can acces it with from the download folder by using:   
+If you download the file you can acces it with from the download folder by using:   
 In [3]: exec(open('Downloads/daxs_xes_EH2_cc_copper.py').read())
