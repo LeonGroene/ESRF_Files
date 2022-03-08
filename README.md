@@ -29,3 +29,10 @@ In [2]: exec(open('filepath/example1.py').read())
 
 If you download the file you can acces it with from the download folder by using:   
 In [3]: exec(open('Downloads/daxs_xes_EH2_cc_copper.py').read())
+
+Modifing the files can be done with spyder or visual studio code. You can also run files directly from visual studio code for this use:
+yourusername@slurm-nice-devel2904:~ % code
+instead of:  
+yourusername@slurm-nice-devel2904:~ % ipython3
+
+you will need to istall Python in the extension tab on the left side. You can run the code then by pressing F5 (debug mode, to get the normal mode running can be a bit more difficult).
