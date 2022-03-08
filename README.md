@@ -28,4 +28,4 @@ Executing a file can be done as followed:
 In [2]: exec(open('filepath/example1.py').read())
 
 If you are you download the file you can acces it with from the download folder by using:   
-In [3]: exec(open('Downloads/example1.py').read())
+In [3]: exec(open('Downloads/daxs_xes_EH2_cc_copper.py').read())
