@@ -6,3 +6,6 @@ Search for:   Compute cluster > slurm > pick one of the slurm-nice-devels for ex
 log in again with your user account (you might wait a moment untill it is fully loaded).
 
 Our data path on the esrf server: /data/visitor/hc4929/id26/
+
+For more scrips or the un modified version go to https://confluence.esrf.fr/pages/viewpage.action?pageId=50765632.
+The official page that proviedes a multitude of scripts for the data analyses.
